@@ -20,9 +20,13 @@ function App() {
 
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center mt-32 px-6">
-
+       <img
+  src="/profile.png"
+  alt=""
+  className="w-40 h-40 rounded-full border-4 border-blue-600 mb-8 object-cover"
+/>
         <h2 className="text-6xl font-bold leading-tight max-w-4xl">
-          Frontend & MERN Stack Developer
+          Building Modern & Scalable Web Experiences
         </h2>
 
         <p className="text-gray-400 mt-6 max-w-2xl text-lg">
@@ -30,17 +34,32 @@ function App() {
           React.js, Next.js, Node.js, Express.js, and MongoDB.
         </p>
 
-        <div className="flex gap-4 mt-8">
+       <div className="flex gap-4 mt-8">
 
-          <button className="bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-xl">
-            View Projects
-          </button>
+  <a
+  href="#projects"
+  className="bg-blue-600 hover:bg-blue-700 transition px-6 py-3 rounded-xl"
+>
+  View Projects
+</a>
 
-          <button className="border border-gray-600 hover:bg-slate-800 transition px-6 py-3 rounded-xl">
-            Contact Me
-          </button>
+ <a
+  href="#contact"
+  className="border border-gray-600 hover:bg-slate-800 transition px-6 py-3 rounded-xl"
+>
+  Contact Me
+</a>
 
-        </div>
+<a
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-slate-800 hover:bg-slate-700 transition px-6 py-3 rounded-xl"
+>
+  Download Resume
+</a>
+
+</div>
 
       </section>
 
@@ -232,6 +251,9 @@ function App() {
         </div>
 
       </section>
+      <footer className="text-center py-8 text-gray-500">
+  © 2026 Pradeep Rathore. All rights reserved.
+</footer>
 
     </div>
   )
