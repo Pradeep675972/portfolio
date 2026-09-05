@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Healthcare Dashboard patient view</title>
+  <desc id="desc">Healthcare dashboard showing Jessica Taylor patient vitals, blood pressure history, diagnostics, and lab results.</desc>
+  <rect width="1200" height="700" fill="#eef3f6"/>
+  <rect x="0" y="0" width="236" height="700" fill="#ffffff"/>
+  <rect x="34" y="30" width="166" height="30" rx="6" fill="#1d7fb4"/>
+  <text x="62" y="51" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="700">CareView</text>
+  <text x="36" y="112" fill="#6a7d8a" font-family="Arial, sans-serif" font-size="13">PATIENTS</text>
+  <rect x="24" y="132" width="188" height="54" rx="8" fill="#e1f0f7"/>
+  <circle cx="52" cy="159" r="15" fill="#f0a78c"/><text x="78" y="164" fill="#18384b" font-family="Arial, sans-serif" font-size="14" font-weight="700">Jessica Taylor</text>
+  <text x="36" y="225" fill="#6a7d8a" font-family="Arial, sans-serif" font-size="13">DASHBOARD</text>
+  <text x="36" y="262" fill="#18384b" font-family="Arial, sans-serif" font-size="15">Overview</text>
+  <text x="36" y="304" fill="#6a7d8a" font-family="Arial, sans-serif" font-size="15">Appointments</text>
+  <text x="36" y="346" fill="#6a7d8a" font-family="Arial, sans-serif" font-size="15">Messages</text>
+  <text x="36" y="388" fill="#6a7d8a" font-family="Arial, sans-serif" font-size="15">Reports</text>
+  <text x="276" y="62" fill="#18384b" font-family="Arial, sans-serif" font-size="27" font-weight="700">Patient overview</text>
+  <text x="276" y="90" fill="#77909e" font-family="Arial, sans-serif" font-size="14">Authenticated healthcare dashboard</text>
+  <rect x="276" y="122" width="556" height="260" rx="12" fill="#ffffff"/>
+  <text x="302" y="158" fill="#18384b" font-family="Arial, sans-serif" font-size="19" font-weight="700">Blood pressure history</text>
+  <text x="302" y="190" fill="#77909e" font-family="Arial, sans-serif" font-size="13">Jessica Taylor · last 6 months</text>
+  <line x1="322" y1="330" x2="790" y2="330" stroke="#d4e1e7" stroke-width="2"/><line x1="322" y1="220" x2="322" y2="330" stroke="#d4e1e7" stroke-width="2"/>
+  <polyline points="322,292 380,270 438,282 496,240 554,255 612,225 670,244 728,205 790,220" fill="none" stroke="#ef7e78" stroke-width="5"/>
+  <polyline points="322,308 380,300 438,310 496,286 554,294 612,270 670,281 728,258 790,268" fill="none" stroke="#6b9be8" stroke-width="5"/>
+  <rect x="858" y="122" width="306" height="120" rx="12" fill="#ffffff"/><text x="882" y="158" fill="#77909e" font-family="Arial, sans-serif" font-size="13">HEART RATE</text><text x="882" y="207" fill="#18384b" font-family="Arial, sans-serif" font-size="32" font-weight="700">72 <tspan font-size="14">bpm</tspan></text>
+  <rect x="858" y="262" width="306" height="120" rx="12" fill="#ffffff"/><text x="882" y="298" fill="#77909e" font-family="Arial, sans-serif" font-size="13">RESPIRATORY RATE</text><text x="882" y="347" fill="#18384b" font-family="Arial, sans-serif" font-size="32" font-weight="700">18 <tspan font-size="14">rpm</tspan></text>
+  <rect x="276" y="414" width="556" height="222" rx="12" fill="#ffffff"/><text x="302" y="452" fill="#18384b" font-family="Arial, sans-serif" font-size="19" font-weight="700">Diagnostics</text><text x="302" y="500" fill="#18384b" font-family="Arial, sans-serif" font-size="15">Blood pressure</text><text x="690" y="500" fill="#41a17e" font-family="Arial, sans-serif" font-size="14">Normal</text><line x1="302" y1="518" x2="806" y2="518" stroke="#e2eaee"/><text x="302" y="558" fill="#18384b" font-family="Arial, sans-serif" font-size="15">Temperature</text><text x="690" y="558" fill="#41a17e" font-family="Arial, sans-serif" font-size="14">Normal</text><line x1="302" y1="576" x2="806" y2="576" stroke="#e2eaee"/><text x="302" y="616" fill="#18384b" font-family="Arial, sans-serif" font-size="15">Respiratory rate</text><text x="690" y="616" fill="#e4a85c" font-family="Arial, sans-serif" font-size="14">Review</text>
+  <rect x="858" y="414" width="306" height="222" rx="12" fill="#ffffff"/><text x="882" y="452" fill="#18384b" font-family="Arial, sans-serif" font-size="19" font-weight="700">Lab results</text><text x="882" y="500" fill="#6a7d8a" font-family="Arial, sans-serif" font-size="14">CBC</text><text x="882" y="542" fill="#6a7d8a" font-family="Arial, sans-serif" font-size="14">Metabolic Panel</text><text x="882" y="584" fill="#6a7d8a" font-family="Arial, sans-serif" font-size="14">Cholesterol</text>
+</svg>

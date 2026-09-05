@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Expense Tracker dashboard</title>
+  <desc id="desc">Expense tracker interface with total spending, category summary, and add expense form.</desc>
+  <rect width="1200" height="700" fill="#101614"/>
+  <rect x="36" y="28" width="1128" height="644" rx="14" fill="#17221e" stroke="#30463d"/>
+  <text x="76" y="88" fill="#f6f3ed" font-family="Arial, sans-serif" font-size="32" font-weight="700">Expense Tracker</text>
+  <text x="76" y="119" fill="#93a99d" font-family="Arial, sans-serif" font-size="15">Track spending, categories and monthly totals</text>
+  <rect x="76" y="158" width="318" height="138" rx="10" fill="#22332d"/>
+  <text x="100" y="197" fill="#9fcbb7" font-family="Arial, sans-serif" font-size="14">TOTAL EXPENSES</text>
+  <text x="100" y="250" fill="#f6f3ed" font-family="Arial, sans-serif" font-size="40" font-weight="700">$2,480.00</text>
+  <rect x="420" y="158" width="318" height="138" rx="10" fill="#2d2820"/>
+  <text x="444" y="197" fill="#e4a85c" font-family="Arial, sans-serif" font-size="14">TOP CATEGORY</text>
+  <text x="444" y="250" fill="#f6f3ed" font-family="Arial, sans-serif" font-size="30" font-weight="700">Food &amp; dining</text>
+  <rect x="764" y="158" width="376" height="138" rx="10" fill="#1c2926"/>
+  <text x="788" y="197" fill="#9fcbb7" font-family="Arial, sans-serif" font-size="14">MONTHLY ACTIVITY</text>
+  <polyline points="792,257 832,238 872,248 912,211 952,225 992,188 1032,202 1072,174" fill="none" stroke="#e4a85c" stroke-width="5"/>
+  <line x1="788" y1="264" x2="1084" y2="264" stroke="#3b5148" stroke-width="2"/>
+  <rect x="76" y="332" width="610" height="286" rx="10" fill="#141d1a" stroke="#30463d"/>
+  <text x="102" y="375" fill="#f6f3ed" font-family="Arial, sans-serif" font-size="20" font-weight="700">Recent expenses</text>
+  <g font-family="Arial, sans-serif" font-size="15">
+    <text x="102" y="425" fill="#f6f3ed">Groceries</text><text x="500" y="425" fill="#e4a85c">-$84.20</text>
+    <text x="102" y="475" fill="#f6f3ed">Transport</text><text x="500" y="475" fill="#e4a85c">-$32.00</text>
+    <text x="102" y="525" fill="#f6f3ed">Subscriptions</text><text x="500" y="525" fill="#e4a85c">-$18.99</text>
+    <text x="102" y="575" fill="#f6f3ed">Utilities</text><text x="500" y="575" fill="#e4a85c">-$120.00</text>
+  </g>
+  <rect x="718" y="332" width="422" height="286" rx="10" fill="#1c2926"/>
+  <text x="746" y="375" fill="#f6f3ed" font-family="Arial, sans-serif" font-size="20" font-weight="700">Add expense</text>
+  <rect x="746" y="402" width="366" height="42" rx="5" fill="#111815" stroke="#3b5148"/><text x="764" y="428" fill="#74877c" font-family="Arial, sans-serif" font-size="14">Expense name</text>
+  <rect x="746" y="458" width="174" height="42" rx="5" fill="#111815" stroke="#3b5148"/><text x="764" y="484" fill="#74877c" font-family="Arial, sans-serif" font-size="14">Amount</text>
+  <rect x="938" y="458" width="174" height="42" rx="5" fill="#111815" stroke="#3b5148"/><text x="956" y="484" fill="#74877c" font-family="Arial, sans-serif" font-size="14">Category</text>
+  <rect x="746" y="528" width="366" height="48" rx="5" fill="#9fcbb7"/><text x="850" y="558" fill="#182019" font-family="Arial, sans-serif" font-size="15" font-weight="700">Save expense</text>
+</svg>
