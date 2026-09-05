@@ -78,6 +78,3 @@ html, body { overflow-x: clip; }
 @media (max-width: 800px) { .hero h1::before, .hero h1 em { font-size: 48px; }.hero-role { font-size: 18px; } }
 .visual-ai { background: #101010; }
 .project-card { border-radius: 8px; }
-.project-cursor { position: absolute; z-index: 3; display: grid; place-items: center; width: 72px; height: 72px; padding: 8px; color: #182019; background: rgba(159,203,183,.9); border: 1px solid rgba(246,243,237,.5); border-radius: 50%; box-shadow: 0 8px 24px rgba(0,0,0,.2), 0 0 0 6px rgba(159,203,183,.08); opacity: 0; pointer-events: none; transform: translate(-50%, -50%) scale(.65); transition: opacity .16s ease, transform .16s cubic-bezier(.2,.8,.2,1); font: 600 9px/1.15 var(--mono); text-align: center; text-transform: uppercase; backdrop-filter: blur(4px); }
-.project-cursor.is-visible { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-@media (hover: none), (max-width: 800px) { .project-cursor { display: none; } }
